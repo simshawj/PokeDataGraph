@@ -15,3 +15,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# AndroidPlot Rules
+-keep class com.androidplot.** { *; }
